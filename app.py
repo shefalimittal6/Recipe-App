@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = '3dc2c8a806c74dedba6b6a10460fa7ff'
+API_KEY = 'APIKEYTOBEADDED'
 BASE_URL = 'https://api.spoonacular.com/recipes/complexSearch'
 
 @app.route('/', methods=['GET', 'POST'])
