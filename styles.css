@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 200px;
+    text-align: center;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+}
